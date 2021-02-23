@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html>
+    <head> 
+        <title> Dr Robotnik </title>
+        <meta name="description" contents="Dr Robotnik is too handsome"> <!-- To specify website title -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="main-header"> <!-- Helps structure the website with headers -->
+            <nav class="nav main-nav"> <!-- Element for website navigation -->
+                <ul> <!-- Unordered list -->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav> 
+            <h1 class="eggman-h1 eggman-h1-large">DR ROBOTNIK</h1>
+            <audio id="source1" src="Audio/Pingas (192  kbps).mp3" preload="auto" loop></audio>
+            <div>
+                    <button class="btn btn-header" type="button" onClick="document.getElementById('source1').play();">Caution: Do Not Press!</button>
+            </div>
+        </header>
+        <section class="content-section container">
+                <h2 class="section-header"> VOICE LINES </h2> 
+                <div> <!-- Meaningless element; used to separate text and create structure in our case -->
+                    <div class="voicelines-row"> <!-- Located further right to contain "voice lines" sections -->
+                        <span class="voicelines-zone voicelines-numb">ZONE 1</span>
+                        <span class="voicelines-zone voicelines-area">GREEN HILLS</span>
+                        <span class="voicelines-zone voicelines-diff">EASY</span>
+                        <audio id="source2" src="Audio/[YTPMV] Robotnik Pickles.mp3" preload="auto"></audio>
+                            <button class="btn voicelines-zone voicelines-btn btn-primary" type="button" onClick="document.getElementById('source2').play();" ondblclick="document.getElementById('source2').load();">LISTEN NOW</button>
+                    </div>
+                    <div class="voicelines-row">
+                        <strong class="voicelines-zone voicelines-numb">ZONE 2</strong>
+                        <span class="voicelines-zone voicelines-area">SANDY HILLS</span>
+                        <span class="voicelines-zone voicelines-diff">MEDIUM</span>
+                        <audio id="source3" src="Audio/[YTPMV] Run Run Robotnik.mp3" preload="auto"></audio>
+                            <button class="btn voicelines-zone voicelines-btn btn-primary" type="button" onClick="document.getElementById('source3').play();" ondblclick="document.getElementById('source3').load();">LISTEN NOW</button>
+                    </div>
+                    <div class="voicelines-row">
+                        <strong class="voicelines-zone voicelines-numb">ZONE 3</strong>
+                        <span class="voicelines-zone voicelines-area">CORK CANYON</span>
+                        <span class="voicelines-zone voicelines-diff">MEDIUM</span>
+                        <audio id="source4" src="Audio/[YTPMV] Robotniktrousle.mp3" preload="auto"></audio>
+                            <button class="btn voicelines-zone voicelines-btn btn-primary" type="button" onClick="document.getElementById('source4').play();" ondblclick="document.getElementById('source4').load();">LISTEN NOW</button>
+                    </div>
+                    <div class="voicelines-row">
+                        <strong class="voicelines-zone voicelines-numb">ZONE 4</strong>
+                        <span class="voicelines-zone voicelines-area">PARCHED PALMS</span>
+                        <span class="voicelines-zone voicelines-diff">HARD</span>
+                        <audio id="source5" src="Audio/[YTPMV] Robotnik Dance (Undertale) (Unfinished).mp3" preload="auto"></audio>
+                            <button class="btn voicelines-zone voicelines-btn btn-primary" type="button" onClick="document.getElementById('source5').play();" ondblclick="document.getElementById('source5').load();">LISTEN NOW</button>
+                    </div>
+                    <div class="voicelines-row">
+                        <strong class="voicelines-zone voicelines-numb"> ZONE 5</strong>
+                        <span class="voicelines-zone voicelines-area">DESERT FALLS</span>
+                        <span class="voicelines-zone voicelines-diff">VERY HARD</span>
+                        <audio id="source6" src="Audio/[YTPMV] Chaos Robotking (Deltarune).mp3" preload="auto"></audio>
+                            <button class="btn voicelines-zone voicelines-btn btn-primary" type="button" onClick="document.getElementById('source6').play();" ondblclick="document.getElementById('source6').load();">LISTEN NOW</button>
+                        <h4 style="text-align: left;"><em>Click any button twice to stop current song</em></h4>
+                    </div>
+                </div>
+        </section>
+        <footer class="main-footer"> <!-- Similar to header but located at bottom -->
+            <div class="container main-footer-container">
+                <h3>DR ROBOTNIK</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=Tx-oMRYpH4U" target="_blank">
+                            <img src="Images/Youtube_Logo.png" width="55" height="55">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/p/B8wY5HsgIAU/" target="_blank">
+                            <img src="Images/Instagram_Logo.png" width="55" height="55">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Dr_Robotnik_" target="_blank">
+                            <img src="Images/Twitter_Logo.png" width="55" height="55">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
